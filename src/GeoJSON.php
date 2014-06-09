@@ -3,8 +3,9 @@
 namespace GeoJSON;
 
 use Nette\Utils\Json;
+use Nette\Object;
 
-abstract class Feature {
+abstract class Feature extends Object {
 
 	public $type = "Feature";
 	public $geometry;
@@ -71,7 +72,7 @@ class FeatureCollection {
 	}
 	
 	public function __toString() {
-		return json_encode($this);
+		return Json::encode($this);
 	}
 }
 
