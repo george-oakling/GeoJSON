@@ -2,6 +2,8 @@
 
 namespace GeoJSON;
 
+use Nette\Utils\Json;
+
 abstract class Feature {
 
 	public $type = "Feature";
