@@ -1,0 +1,19 @@
+{
+  "name": "george-oakling/geojson",
+	"description": "GeoJSON easy library",
+	"keywords": ["geojson", "maps"],
+	"homepage": "http://github.com/george-oakling/GeoJSON",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "George Oakling",
+			"email": "george@oakling.name"
+		}
+	],
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require": {
+		"nette/utils": "~2.2"
+	}
+}
