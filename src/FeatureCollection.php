@@ -14,6 +14,6 @@ class FeatureCollection extends Object {
 	}
 	
 	public function __toString() {
-		return Json::encode($this);
+		return Json::encode($this, Json::PRETTY);
 	}
 }

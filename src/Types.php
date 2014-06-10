@@ -13,7 +13,12 @@ class Point extends Feature {
 }
 
 class MultiPoint extends Feature {
-	// todo
+	public function addCoordinates($lat, $lng) {
+		$this->geometry["coordinates"][] = array(
+			(float) $lat,
+			(float) $lng
+		);
+	}
 }
 
 class LineString extends Feature {
