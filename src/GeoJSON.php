@@ -33,6 +33,7 @@ abstract class Feature extends Object {
 class Point extends Feature {
 	
 	public function setCoordinates($lat, $lng) {
+		$this->geometry["coordinates"] = array();
 		$this->geometry["coordinates"][] = (float) $lat;
 		$this->geometry["coordinates"][] = (float) $lng;
 	}
