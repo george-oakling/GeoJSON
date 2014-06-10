@@ -14,8 +14,8 @@
 		"classmap": ["src/"]
 	},
 	"require": {
-		"nette/utils": "~2.2"
-		"tracy/tracy": "v2.2.1"
+		"nette/utils": "~2.2",
+		"tracy/tracy": "v2.2.1",
 		"nette/tester": "~1.1.0"
 	}
 }
